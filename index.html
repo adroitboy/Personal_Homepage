@@ -7,9 +7,10 @@
 	<meta name="author" content="Dong Ji" />
 	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
 	<link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
+	<link rel="stylesheet" href="lightbox.css">
 	<link rel="shortcut icon" href="images/favicon.ico" />
 	<title>Dong Ji</title>
-	<script type="text/javascript" src="menu.js"> </script>
+	<script type="text/javascript" src="js/menu.js"> </script>
 
 	<!--new dot style-->
 	<style>
@@ -174,11 +175,19 @@
 					I was born in Tangshan, a city near Beijing, China. I enjoy sports, especially badminton, long-distance running,photographs. I also play some <a href="http://www.ysquare.space/">interactive music</a> with some funny guys.
 				</div>
 
-				<ul class="aligncenter">
+<!-- 				<ul class="aligncenter">
 					<img src="images\badminton.JPG" width="180" height="180"/>
 					<img src="images\Marathon.JPG" width="180" height="180"/>
 					<img src="images\Interactive_music.JPG" width="360" height="180"/>
-				</ul>
+				</ul> -->
+
+				<ul class="aligncenter">
+					<a class="example-image-link" href="images/Badminton.JPG" data-lightbox="example-set" data-title="Badminton"><img src="images\badminton.JPG" width="180" height="180"/></a>
+					<a class="example-image-link" href="images/Marathon.JPG" data-lightbox="example-set" data-title="Marathon"><img src="images\Marathon.JPG" width="180" height="180"/></a>
+					<a class="example-image-link" href="images/Interactive_music.JPG" data-lightbox="example-set" data-title="Interactive_music"><img src="images\Interactive_music.JPG" width="350" height="180"/></a>
+			    </ul>
+
+			    <script src="js/lightbox-plus-jquery.min.js"></script>
 			</div> 
 		</div> 
 					
@@ -190,9 +199,10 @@
 	</div>
 	 -->
 
-	<div id="footer" class="row">
-		<div class="col c12 alignleft">
-			&copy; 2016 Dong Ji. Welcome to my hompage.
+		<div id="footer" class="row">
+			<div class="col c12 alignleft">
+				&copy; 2016 Dong Ji. Welcome to my hompage.
+			</div>
 		</div>
 	</div>
 
